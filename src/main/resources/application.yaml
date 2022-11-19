@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/chartio_db
+    username: root
+    password: abc
+    hikari:
+      data-source-properties:
+        useSSL: false
+
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create
+
+chartio:
+  infra:
+    webclient:
+      log: true
+      coingeckoBaseUrl: https://api.coingecko.com/api/v3/
+
+    coingecko:
+      ping: "ping"
+      assetPlatforms: "asset_platforms"
