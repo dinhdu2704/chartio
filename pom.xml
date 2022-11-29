@@ -19,7 +19,7 @@
 		<java.version>11</java.version>
 		<lombok.version>1.18.0</lombok.version>
 		<spring.version>2.3.11.RELEASE</spring.version>
-		<webflux.version>2.3.11.RELEASE</webflux.version>
+		<webflux.version>2.5.12</webflux.version>
 		<validation.version>2.3.11.RELEASE</validation.version>
 		<jpa.version>2.3.11.RELEASE</jpa.version>
 		<mysql.version>8.0.24</mysql.version>
